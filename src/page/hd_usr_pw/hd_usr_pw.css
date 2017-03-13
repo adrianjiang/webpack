@@ -1,0 +1,36 @@
+.pw_edit{
+	padding: 15px 0;
+}
+.row_txt{	
+	color: #838383;
+	border-bottom: 1px solid #c8c7cd;
+	width: 100%;
+	padding: 5px 15px;
+}
+.row_pw{
+	background: #fff;
+	border-bottom: 1px solid #c8c7cd;
+	width: 100%;
+	padding: 8px 15px;
+}
+.row_pw > input{
+	border: none;
+	width: 100%;
+}
+div .login .w94{width: 94%;}
+.w94{width: 94%; margin: 0 auto;}
+a .pw_show{
+	background: url("img/pw_show.png") no-repeat;
+	background-size: 20px;
+	padding-left: 30px;
+	color: #878787;
+	float: left;
+}
+a .pw_back{	
+	color: #1270e1;
+	float: right;
+}
+.mb40{
+	margin-bottom: 40px;
+	
+}

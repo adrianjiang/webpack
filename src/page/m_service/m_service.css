@@ -1,0 +1,73 @@
+/*客服中心*/
+.kefu_body{
+    background: #fff;
+    overflow-x: hidden;
+}
+.kefu_icons h3{
+    font-size:17px;
+    text-align:center;
+}
+.kefu_icons_list{
+    padding:15px 22px 5px;
+}
+.kefu_icons .col-xs-3{
+    width:25%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kefu_icons .col-xs-3 a{display: inline-block; text-decoration: none;}
+.kefu_icons .col-xs-3 a p{
+    color: #9a9a9a;
+    font-size: 13px;
+}
+.kefu_icons .col-xs-3 div{
+    border-radius: 50%;
+    border:1px solid #f1f1f1;
+    width: 44px;
+    height:44px;
+    line-height: 40px;
+    margin: 0 auto 5px;
+}
+.kefu_icons .col-xs-3 img{
+    width:56%;
+}
+.kefu_icons .col-xs-3 a.active div{
+    background: #f1f1f1;
+}
+.kefu_icons .col-xs-3 a.active p{
+    color: #1a6fc0;
+}
+.kefu_icons .col-xs-3 a.active i{
+    background: url("img/kefu_arrow.png") no-repeat 0 0 / 100%;
+    width: 11px;
+    height:6px;
+    position: absolute;
+    left:calc(50% - 5.5px);
+}
+.kefu_content .dizhi{
+    margin:20px 0 20px 10px;
+    font-size: 14px;
+}
+.kefu_content .dizhi label{
+    width:120px;
+    text-align:right;
+    font-weight: normal;
+}
+.kefu_content .dizhi .dizhi_tip{
+    color: #d82528;
+    clear: both;
+}
+.kefu_content .wuliu input[type='text'] {
+    border:1px solid #e7e7e7;
+    color:#757575;
+    padding:5px 2px;
+}
+.kefu_content .jianyi label {
+    width:50px;    
+}
+.kefu_content .dizhi .btn_submit{
+    padding:10px 55px;
+    margin:10px 0 0;
+}
+.kefu_c{display: none;}

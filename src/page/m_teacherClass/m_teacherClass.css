@@ -1,0 +1,53 @@
+button, input, optgroup, select, textarea {
+     margin: 0; 
+     font: inherit; 
+     color: inherit; 
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.filter{margin-bottom: 0;}
+.filter select{
+	font-size: 14px;
+}
+.pull-left{float:left;}
+.pull-right{float:right;}
+.lessons_list {
+    padding: 10px;
+    margin-top: 3px;
+    border-bottom: 1px dashed #c0c0c0;
+}
+.lessons_list .media-left {
+    width: 40%;
+    position: relative;
+    padding: 0;
+    margin-right: 10px;
+    float: left;
+}
+.lessons_list .media-left img {
+    width: 100%;
+}
+.lessons_list .media-left .lesson_mask {
+    background: rgba(0,0,0,.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.lessons_list .media-body h4 {
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 140%;
+}
+.load-more {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.lessonss{margin-bottom: 0;}
+.lesson-more a {    
+     padding-top: 0;   
+     font-size: 14px; 
+}

@@ -1,0 +1,91 @@
+<div class="page">
+	<div class="title-bar">
+    	<a e-href="hd_home" class="btn_back"></a>
+    	客服中心
+	</div>
+	<div class="zx360_banner">
+	    <img src="img/kefu_banner.png" />
+	</div>
+	<div class="kefu_icons bg_white clearfix">
+	    <h3>您遇到了哪些问题需要处理？</h3>
+	    <div class="row kefu_icons_list">
+	        <div class="col-xs-3">
+	            <a href="javascript:;" class="kefu  active" type="faq">
+	                <div><img src="img/kefu_icon1.png"/></div>
+	                <p>常见问题</p>
+	                <i></i>
+	            </a>
+
+	        </div>
+	      
+	        <div class="col-xs-3">
+	            <a href="javascript:;"  class="kefu" type="address">
+	                <div><img src="img/kefu_icon3.png"/></div>
+	                <p>修改地址</p>
+	                <i></i>
+	            </a>
+	        </div>
+	        <div class="col-xs-3">
+	            <a href="javascript:;"  class="kefu" type="yijian">
+	                <div><img src="img/kefu_icon4.png"/></div>
+	                <p>投诉建议</p>
+	                <i></i>
+	            </a>
+	        </div>
+	        <div class="col-xs-3">
+	            <a href="javascript:;"  class="kefu" type="fuwu">
+	                <div><img src="img/kefu_icon5.png"/></div>
+	                <p>服务网点</p>
+	                <i></i>
+	            </a>
+	        </div>
+	    </div>
+
+	    <div class="kefu_content">
+	    <!--新闻列表-->
+			<div class="kefu_c" id="faq" EC-name="hdfaqlist"></div>
+		<!--修改地址-->
+		
+			<div class="kefu_c wuliu dizhi" id="address">
+		        <p><label>购买渠道：</label><input type="radio" name="buystate" class="required" value="1"/>天猫店铺　<input type="radio" class="required" name="buystate" value="0"/>其他</p>
+		        <p><label>天猫店铺订单号：</label>
+		        <input type="text" path="orders" htmlEscape="false" maxlength="20" placeholder="其他渠道购买可不填写"/></p>
+		        <p><label>下单的旺旺ID：</label>
+		        <input type="text" path="wangid" htmlEscape="false" maxlength="16"  /></p>
+		        <p><label>原收件人：</label>
+		        <input type="text" path="name" htmlEscape="false" maxlength="16"  placeholder="请输入真实姓名" class="required"/></p>
+		        <p><label>原联系电话：</label>
+		        <input type="text" path="telphone" htmlEscape="false" maxlength="16"  placeholder="请输入收件人电话 " class="required"/></p>
+		        <p><label>现收件人：</label>
+		      	<input type="text" path="nowname" htmlEscape="false" maxlength="16"  placeholder="请输入真实姓名" class="required"/></p>	
+		        <p><label >现联系电话：</label>
+		  	    <input type="text" path="nowtelphone" htmlEscape="false" maxlength="16"  placeholder="请输入收件人电话 " class="required"/></p>	
+		        <p><label>现邮寄地址：</label>
+		        <input type="text" path="nowaddress" htmlEscape="false" maxlength="50"  placeholder="请输入您的收货地址 " class="required"/></p>	
+		        <p><label style="height: 80px;float: left;">快递选择：</label>
+		       <input type="radio" name="kuaidistate" value="0" class="required"/>百世汇通<br/>
+		         <input type="radio" name="kuaidistate" value="1" class="required"/>EMS<br/>
+		         <input type="radio" name="kuaidistate" value="2"  class="required"/>顺丰到付<span>（邮费学员自付）</span></p>
+		        <p class="dizhi_tip">
+		            注意事项：<br />请同学们认真填写以上信息，信息不完整将无法进行变更。<br />如因学员个人原因导致快递邮寄出现问题，所产生的一切经济损失由学员本人承担。感谢配合！
+		        </p>
+		        <p class="text-center"><input type="button" value="立即提交" class="btn_search btn_submit"/></p>
+		    </div>
+	    
+	    <!--投诉建议-->
+	    	<div class="kefu_c wuliu dizhi jianyi" id="yijian">
+		        <p><label>姓名：</label><input type="text" path="name" htmlEscape="false" maxlength="50" placeholder="请输入您的名字" class="l required "/></p>
+		        <p><label>电话：</label><input type="text" path="telephone" htmlEscape="false" maxlength="50" placeholder="请输入有效的联系方式" class="l required"/></p>
+		        <p><label class="pull-left">内容：</label>
+		        <textarea path="detail" htmlEscape="false" rows="6" cols="30" maxlength="300" placeholder="您想对我们说" class="l required"/>
+		        <p class="text-center"><input type="button" value="立即提交" class="btn_search btn_submit"/></p>
+		        <p><img src="img/kefu_jy.png"/></p>
+		    </div>
+	    <!--服务网点-->
+	        <div class="kefu_c wangdian" id="fuwu">
+		        <img src="img/kefu_wd.jpg" alt="服务网点"/>
+		    </div>
+
+
+		</div>
+</div>

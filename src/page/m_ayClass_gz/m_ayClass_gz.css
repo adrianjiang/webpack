@@ -1,0 +1,22 @@
+.table_gz th{
+    background:#0eb468;
+    color: #fff;
+    font-weight: normal;
+}
+.table_gz th:nth-child(even){
+    background:#33c281;
+}
+table.table_gz, table.table_gz th,table.table_gz td
+{
+    border:1px solid #9be2c1;
+}
+.yhzc_gz{border: 1px dashed #0eb468;}
+.yhzc_gz h3{color: #0eb468;}
+.yhzc_gz i{border: 1px dashed #0eb468;}
+
+
+.ms_nav a.gz{
+    border: 1px solid #0eb468;
+    background:#0eb468; 
+    color: #fff;
+}

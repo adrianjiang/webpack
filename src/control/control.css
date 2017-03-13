@@ -1,0 +1,51 @@
+
+
+
+
+
+/**
+ * ------------------------------------------------------------------
+ * SwipeNavbar
+ * ------------------------------------------------------------------
+ */
+
+.SwipeNav{
+	margin-top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(245,245,245);
+}
+.SwipeNav-li{
+    text-align: center;
+    color: #444;
+    height: initial;
+}
+.navBox{
+    margin-top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(245,245,245);
+}
+/*
+.Eswiper-active-nav{
+	border-bottom: 3px solid #1a6fbf;
+	color: #1a6fbf;
+}
+*/
+/**
+ * ------------------------------------------------------------------
+ * SwipeImg
+ * ------------------------------------------------------------------
+ */
+
+.SwipeImg{
+
+}
+.SwipeImg-li{
+}
+.SwipeImg-img{
+    width: 100%;
+}
+
+
+

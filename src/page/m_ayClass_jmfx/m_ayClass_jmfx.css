@@ -1,0 +1,21 @@
+.table_join th{
+    background:#fdaaaa ;
+    color: #fff;
+}
+.table_join th:nth-child(even){
+    background:#ffb8b8;
+}
+table.table_join, table.table_join th,table.table_join td
+{
+    border:1px solid #ffcdcd;
+}
+.yhzc_join{border: 1px dashed #f19595;}
+.yhzc_join h3{color: #f19595 ;}
+.yhzc_join i{border: 1px dashed #f19595;}
+
+
+.ms_nav a.jmfx{
+    border: 1px solid #fdaaaa;
+    background:#fdaaaa; 
+    color: #fff;
+}

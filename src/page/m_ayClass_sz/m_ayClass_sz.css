@@ -1,0 +1,21 @@
+.table_sz th{
+    background:#e2c667 ;
+    color: #fff;
+}
+.table_sz th:nth-child(even){
+    background:#d9ba53;
+}
+table.table_sz, table.table_sz th,table.table_sz td
+{
+    border:1px solid #e4cf87;
+}
+.yhzc_sz{border: 1px dashed #d9ba53 ;}
+.yhzc_sz h3{color: #d9ba53 ;}
+.yhzc_sz i{border: 1px dashed #d9ba53;}
+
+
+.ms_nav a.sz{
+    border: 1px solid #e2c667;
+    background:#e2c667; 
+    color: #fff;
+}

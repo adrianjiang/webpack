@@ -1,0 +1,123 @@
+.title-bar{
+    background:#fff;
+    border-bottom: 1px solid #cecece;
+    position: relative;
+    text-align: center;
+    line-height: 44px;
+    font-size:18px;
+ }
+.title-bar .btn_back{
+    background: url("img/btn_back.png") no-repeat center center / 100%;
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:0;
+    top:5px;
+}
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-left, .media>.pull-left {
+    padding-right: 10px;
+}
+.media-body {
+    width: 10000px;
+}
+/*在线360*/
+body.zx360_body{background: #f7f7f7;}
+.zx360_banner img{ width:100%;}
+.zx360_td h1{ margin:0;}
+.zx360_td h1 img{ width:100%;}
+.zx360_td .media{
+    background: #fff;
+    padding:10px 15px;
+    margin:0;
+}
+.zx360_lesson section .media .media-left{margin-right:10px;}
+.zx360_td .media .media-left img{ width:73px;}
+.zx360_td .media .media-body h4{
+    color:#515151;
+    font-size:17px;
+    margin-top: 8px;
+}
+.zx360_td .media .media-body p{
+    color:#8c8c8c;
+    font-size:13px;
+}
+.zx360_td .media .media-body.align_r{ text-align:right; padding-right:10px;}
+
+.zx360_lesson h1{
+    padding:15px 30px;
+    background: #f7f7f7;
+}
+.zx360_lesson h1{ text-align: center;}
+.zx360_lesson h1 img{ width:90%;}
+.zx360_lesson section{
+    background: #fff;
+    margin:8px 8px 15px;
+    padding:15px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.1);
+}
+.zx360_lesson section .media.bb{ border-bottom:1px solid #eaeaea; padding:0; margin-bottom: 10px;}
+.zx360_lesson section .media .media-left img{ width:50px;}
+.zx360_lesson .media .media-body h4{color:#4587de; font-size:16px;margin-bottom:5px;}
+.zx360_lesson .media .media-body p{color:#000; font-size:12px;}
+.zx360_lesson .tsjs h5{ color:#1c1c1c; font-size:14px; }
+.zx360_lesson .tsjs p{ color:#797979; font-size:13px; }
+.zx360_cz a.zx360_price{
+    border:1px solid #ff9c00;
+    color:#fe9b02;
+    float:left;
+    width:45%;
+    text-align: center;
+    padding:6px 0;
+    font-size:14px;
+}
+.zx360_cz a.zx360_btn_buy{
+    border:1px solid #ff9c00;
+    background: #ff9c00;
+    color:#fff;
+    float:left;
+    width:55%;
+    text-align: center;
+    padding:6px 0;
+    font-size:14px;
+}
+.zx360_lesson .media .media-body h4.zz{color:#45c3fe;}
+.zx360_lesson .media .media-body h4.vip{color:#ea5e85;}
+.zx360_lesson .media .media-body h4.vip{color:#ea5e85;}
+
+.zx360_xx{
+    background: #1e5bac;
+    padding:30px 0 30px;
+}
+.zx360_vip{padding:15px;}
+.zx360_vip h3{
+    color: #3483a4;
+    border-bottom:1px solid #e4e4e4;
+    font-style:italic;
+    font-size:18px;
+    padding-bottom:10px;
+}
+.zx360_vip .media-left i{
+    background: #ff6752;
+    color: #fff;
+    font-size: 19px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.zx360_vip .media-body p{
+    font-size: 13px;
+    margin-top:10px;
+}

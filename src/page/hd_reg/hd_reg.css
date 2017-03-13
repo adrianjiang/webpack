@@ -1,0 +1,76 @@
+.page_login{background: #ecedf1;}
+.fl{float: left;}
+.fr{float: right;}
+.logo{
+	text-align: center;
+	height: 100px;
+}
+.logo img{
+	width:80px;
+	height: 80px;
+}
+.inputs{
+	text-align: center;
+	padding:10px 0;
+}
+.inputs>div{
+	width: 90%;
+	margin: 5px auto;
+}
+.inputs label{
+	float: left;
+	margin-right: 10px;
+	width: 28px;
+	height:28px;
+	margin-top: 17px;
+}
+.inputs label.icon_usr{
+	background: url("img/icon_usr.png"); 
+	background-size: cover;	
+}
+.inputs label.icon_mail{
+	background: url("img/icon_mail.png"); 
+	background-size: cover;	
+}
+.inputs label.icon_tel{
+	background: url("img/icon_tel.png"); 
+	background-size: cover;	
+}
+.inputs label.icon_pw_reg{
+	background: url("img/icon_pw.png"); 
+	background-size: cover;	
+}
+.inputs label.icon_pw1_reg{
+	background: url("img/icon_pw1.png"); 
+	background-size: cover;	
+}
+.inputs input.in{
+	float: left;
+	border: none;
+	border-bottom: 1px solid #ccc;	
+	padding: 10px;
+    width: 82%;
+    margin:8px 0;
+    font-size: 15px;
+}
+@media (max-width: 320px){
+.inputs input.in{	
+	padding: 8px;
+    width: 79%;  
+}
+}
+
+.inputs input:focus{
+	outline: 0;
+}
+div.login{
+	width: 90%;
+	margin: 15px auto;
+}
+.btn_login{
+	width: 100%;
+	background:#00aced; 
+	border: #00aced;
+	padding:8px 0;
+	font-size: 15px;
+}

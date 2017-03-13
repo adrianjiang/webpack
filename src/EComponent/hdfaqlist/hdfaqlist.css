@@ -1,0 +1,96 @@
+.kefu_content{
+    border:1px solid #e7e7e7;
+    border-radius:5px;
+    margin:0 10px 15px;
+    padding:15px;
+}
+.kefu_content li{
+    border-bottom:1px dashed #e4e4e4;
+}
+.kefu_content li a{
+    color:#000000;
+    padding:10px 0;
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}
+a.faq_more {
+    color: #6b6b6b;
+    border: 1px solid #ff9f17;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 40px;
+    margin: 15px 0 5px;
+    display: inline-block;
+    text-decoration: none;    
+}
+.kefu_content .dizhi .btn_submit{
+    padding:10px 55px;
+    margin:10px 0 0;
+}
+.kefu_content .jianyi{
+    margin:20px 0;
+}
+.kefu_content .jianyi textarea{
+    border:1px solid #e7e7e7;
+    color:#757575;
+    padding:5px 2px;
+    width: 80%;
+    resize: none;
+}
+.kefu_content .jianyi img,.kefu_content .wangdian img{
+    width:100%;
+}
+.kefu_ask,.kefu_answer{ margin-top:0;margin-bottom:10px;padding: 10px 0;}
+.kefu_ask i{
+    border-radius: 6px;
+    background: #1b76c2;
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 3px;
+    font-weight: bolder;
+}
+.kefu_ask h5{
+    font-size:16px;
+}
+.kefu_date{
+    color:#929292;
+    font-size:12px;
+    margin-right:10px;
+}
+.kefu_eye{
+    width:17px;
+}
+.kefu_answer i{
+    border-radius: 6px;
+    background: #30c174;
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 3px;
+    font-weight: bolder;
+}
+.faq_txt{
+    color:#585858;
+    font-size:14px;
+    padding-right:10px;
+    line-height:160%;
+}
+.kefu_content .wuliu .btn_search {
+    background: #1f7fd3;
+    border: none;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 16px;
+}

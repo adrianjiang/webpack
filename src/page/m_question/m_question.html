@@ -1,0 +1,33 @@
+<div class="page">
+	<div class="title-bar">
+    	<a e-href="m_service" class="btn_back"></a>
+    	客服中心
+	</div>
+	<div class="media bg_white kefu_ask">
+	    <div class="media-left">
+	        <i>问</i>
+	    </div>
+	    <div class="media-body">
+	        <h5>${faqQuestion.title}</h5>
+	        <p class="text-right kefu_date"><fmt:formatDate value="${faqQuestion.ndateline}" pattern="yyyy-MM-dd HH:mm:ss"/>　<img src="img/kefu_eye.png" class="kefu_eye"/>${faqQuestion.clicknum }</p>
+	    </div>
+	</div>
+	<c:forEach items="${alist }" var="a">
+	<div class="media bg_white kefu_answer">
+	    <div class="media-left">
+	        <i>答</i>
+	    </div>
+	    <div class="media-body">
+	        <div class="faq_txt">${a.content }</div>
+	        <p class="text-right kefu_date"><fmt:formatDate value="${a.ndateline}" pattern="yyyy-MM-dd HH:mm:ss"/></p>
+	    </div>
+	</div>
+	</c:forEach>
+	<div class="filter news_filter bg_white mt2">
+	    <h4><i></i>相关问题</h4>
+	</div>
+	<div class="other_news bg_white">
+	    <div EC-name="hdothernews"></div>
+	</div>
+	
+</div>

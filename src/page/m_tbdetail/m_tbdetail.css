@@ -1,0 +1,67 @@
+ul{padding:0;}
+li{list-style: none;}
+.book_position_parent{
+    float: left;
+    width: 100%;
+}
+.book_position{
+    background: #eee;
+    border-radius: 2px;
+    color:#646464;
+    padding:6px 10px;
+    margin:10px;
+}
+.book_position a{color:#646464;}
+.book_photo{
+    background: #eee;
+    text-align: center;
+    padding:20px 0;
+}
+.book_photo img{
+    width:50%;
+}
+.book_info{
+    padding:15px 0;
+    margin-bottom: 2%;
+}
+.book_info p.book_name {margin-bottom:2px; color: #000; font-size:16px;}
+.book_info p.book_description{margin-bottom:2px; color: #5f5f5f; font-size:13px; margin:6px;}
+.book_info p.book_price {margin-bottom:3px; color: #ff9c00;margin-left:6px; font-size:18px;}
+.book_info p.book_price span.yuan {margin-left:10px;color:#999;text-decoration:line-through;font-size:13px;}
+
+.book_nav1 li{
+    width:50%;
+    float:left;
+    list-style: none;
+}
+.book_nav1 li a{
+    color:#000;
+    display: block;
+    border-bottom: 2px solid #acacac;
+    padding:10px 0;
+    text-align: center;
+}
+.book_nav1 li.active a{
+    color: #1b77c2;
+    border-bottom: 2px solid #1b77c2;
+}
+.book_detail{
+    background: #f8f8f8;
+    padding:10px;
+    margin-bottom: 2%;
+}
+.book_detail img{
+    width:100%;
+}
+.book_detail ul.arguments li{
+    border-bottom:1px solid #ddd;
+    padding:10px;
+    color:#666;
+}
+.book_detail ul.arguments li:last-child{
+    border-bottom:0;
+}
+.book_detail ul.arguments li span.book_label{
+    width:25%;
+    display: inline-block;
+}

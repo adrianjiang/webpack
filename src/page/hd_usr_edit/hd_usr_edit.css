@@ -1,0 +1,30 @@
+.usr_list > .row{margin:0; padding: 10px 0; border-bottom: 1px solid #ccc;}
+.usr_list > .row:last-child{border-bottom:none;}
+.usr_list{
+	margin: 10px auto 100px;
+}
+.icon_zl,.icon_pw{
+	background: url("img/icon_info.png") no-repeat 10px center;
+	background-size: 22px;
+	padding-left:40px;
+	font-size: 16px;
+}
+.icon_pw{
+	background: url("img/icon_pw.png") no-repeat 10px center;	
+	background-size: 22px;
+}
+.arrow_r{
+	text-align: right;
+}
+.arrow_r img{
+	width:60%;	
+}
+.title-bar.title-bar_usr {
+    background: #1a6fbf;
+    color: #fff;      
+}
+.title-bar.title-bar_usr .btn_back{
+	background: url("img/usr_back.png") no-repeat center center;
+	background-size: 30px;
+	margin-top:2px;
+}

@@ -1,0 +1,15 @@
+.mt2{margin-top:2%;}
+.other_news{ padding:10px 0;}
+.other_news li{ padding:5px 8px;}
+.other_news li i{
+     color: #a4a4a4;
+     border: 1px solid #b9b9b9;
+     width:20px;
+     height:20px;
+     line-height: 20px;
+     border-radius: 50%;
+     display: inline-block;
+     text-align: center;
+     font-style: normal;
+ }
+.other_news li a{ color: #505050; font-size: 15px;}

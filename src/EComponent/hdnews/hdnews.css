@@ -1,0 +1,57 @@
+
+
+
+
+.swipePage-box{
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background-color: rgb(242,242,242);
+    padding-top: 10px;
+}
+
+.swipePage-page1{
+    background-color: red;
+}
+
+.swipePage-page2{
+    background-color: green;
+}
+.swipePage-page3{
+    background-color: blue;
+}
+
+
+
+.book{margin:0;}
+.book div{padding:0;}
+.book div div{
+    text-align: center;
+    padding: 15px;
+    margin: 0 2% 4%;
+    background: #fff;
+    width: 96%;
+    position: relative;
+}
+.book img{
+    width:80%;
+    margin-top:10px;
+}
+.book p.book_name {margin-bottom:2px; color: #000;   
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.book p.book_price {margin-bottom:3px; color: #ff9c00;}
+.book div.book-more{padding:5px 0 10px; clear: both;}
+.book div.book-more a{color:#1a6fc0;}
+.book i.yushou{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffab14;
+    color: #fff;
+    font-style: normal;
+    padding: 2px 8px;
+    font-size:12px;
+}

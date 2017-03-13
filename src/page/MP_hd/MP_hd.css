@@ -1,0 +1,117 @@
+.MPhd-box{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background-color: rgb(242,242,242);
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.MPhd-head{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(237, 109, 0)
+}*/
+/*.MPhd-head-left{
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding: 6px;
+    margin-left: 5px;
+}*/
+
+.MPhd-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    top: 0%;
+    padding-bottom:17%;
+    z-index: 2;
+    background-color: #f8f8f8;
+}
+
+.MPhd-foot{
+    z-index: 200;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 9%;
+    /*border: 1px solid #ddd;*/
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    padding-bottom: 3px;
+
+    /*
+    -webkit-box-shadow: inset 0 0 10px #ccc;
+    -moz-box-shadow: inset 0 0 10px #ccc;
+    box-shadow: inset 0 0 10px #ccc;
+    */
+}
+.MPhd-menu-li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.MPhd-menu-icon{
+    margin-top: 8px;
+}
+
+.MPhd-mask{
+    top: 0%;
+    /*display: none;*/
+    /*z-index: 5;*/
+    width: 100%;
+    height: 91%;
+    position: absolute;
+    
+}
+.MPhd-menu-icon .footer_icon1,.MPhd-menu-icon .footer_icon2,.MPhd-menu-icon .footer_icon3,.MPhd-menu-icon .footer_icon4{
+    width:28px;
+    height: 28px;
+    margin: 0 auto;
+}
+.MPhd-menu-icon .footer_icon1{
+    background: url("img/footer_icon11.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon .footer_icon2{
+    background: url("img/footer_icon21.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon .footer_icon3{
+    background: url("img/footer_icon31.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon .footer_icon4{
+    background: url("img/footer_icon41.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon.active .footer_icon1{
+    background: url("img/footer_icon12.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon.active .footer_icon2{
+    background: url("img/footer_icon22.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon.active .footer_icon3{
+    background: url("img/footer_icon32.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon.active .footer_icon4{
+    background: url("img/footer_icon42.png") no-repeat center center / 100%;
+}
+.MPhd-menu-icon p {
+    text-align: center;
+    color: #4b4c4c;
+    font-size:13px;
+    margin-bottom: 0;
+}
+.MPhd-menu-icon.active p {color: #ff8000;}
+@media (max-width: 321px){
+.MPhd-menu-icon {
+    margin-top: 2px;
+} 
+.MPhd-menu-icon p {
+    font-size:12px;
+}
+}

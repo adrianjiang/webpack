@@ -1,0 +1,21 @@
+.table_nj th{
+    background:#977dee;
+    color: #fff;
+}
+.table_nj th:nth-child(even){
+    background:#8a73da;
+}
+table.table_nj, table.table_nj th,table.table_nj td
+{
+    border:1px solid #b6a4f3;
+}
+.yhzc_nj{border: 1px dashed #8a73da ;}
+.yhzc_nj h3{color: #8a73da ;}
+.yhzc_nj i{border: 1px dashed #8a73da ;}
+
+
+.ms_nav a.nj{
+    border: 1px solid #977dee;
+    background:#977dee; 
+    color: #fff;
+}

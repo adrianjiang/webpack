@@ -1,0 +1,81 @@
+.info_list{margin:10px 0; padding: 10px 0;}
+.usr_head{
+	width: 55px;
+	height: 55px;
+	float: right;
+}
+.usr_head img{
+	width: 100%;
+	text-align: center;	
+}
+.col-xs-2.label {    
+    text-align: right;
+    font-size: 15px;
+    padding-right: 0;
+}
+.text_info{
+	color: #878787;
+	font-size: 15px;
+}
+.info_list > .row{
+	border-bottom: 1px solid #d4d4d4;
+	padding: 12px 0;
+}
+.pr0{
+	padding-right: 0;
+}
+.arrow_r1{
+	text-align: center;
+	padding-left:0;
+}
+.arrow_r1 img {
+    width: 40%;
+}
+.mt14{
+	margin-top: 14px;
+}
+a.btn_edit{
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    font-size: 15px;
+} 
+
+.modal{
+	width: 90%;
+	margin: 0 auto;
+}
+.modal1{
+	border-radius: 12px;
+	background: #fff;
+	width:100%;
+	text-align: center;
+}
+.modal1 h5{
+	color: #8f8f8f;
+	padding:10px 0;
+	border-bottom: 1px solid #d6d5da;
+	margin: 0;
+}
+.modal1 .modal_list{
+	color: #8f8f8f;
+	padding:12px 0;
+	border-bottom: 1px solid #d6d5da;
+}
+.modal1 .modal_list:last-child{	
+	border-bottom: none;
+}
+.modal1 .modal_cancel{	
+	padding:10px 0;	
+}
+.modal1 .modal_list a,.modal1 .modal_cancel a{
+	color: #007aff;	
+	font-size: 17px;
+	width: 100%;
+}
+.modal1 .modal_cancel a{	
+	padding:10px 0;	
+	font-weight: bold;
+}
+.mt10{margin-top: 10px;}
+.mb10{margin-bottom: 10px;}

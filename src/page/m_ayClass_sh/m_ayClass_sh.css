@@ -1,0 +1,20 @@
+.table_sh th{
+    background:#2bc4c0;
+    color: #fff;
+}
+.table_sh th:nth-child(even){
+    background:#04b3ae;
+}
+table.table_sh, table.table_sh th,table.table_sh td
+{
+    border:1px solid #82d9d7;
+}
+.yhzc_sh{border: 1px dashed #04b3ae;}
+.yhzc_sh h3{color: #04b3ae;}
+.yhzc_sh i{border: 1px dashed #04b3ae;}
+
+.ms_nav a.sh{
+    border: 1px solid #2bc4c0;
+    background:#2bc4c0; 
+    color: #fff;
+}
